@@ -22,7 +22,7 @@ const Review = () => {
             ?
             <h1>Cargando</h1>
             :
-            
+            <h1>Posts</h1>
         }
         {posts && posts.map(posts=>
             <div key= {posts.id}>
